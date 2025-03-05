@@ -1,6 +1,8 @@
-<<<<<<< HEAD
 # Smart-Buy
-=======
+Smart Buy is a modern e-commerce platform designed for seamless shopping of electronics. Whether you're looking for smartphones, headphones, or other gadgets, Smart Buy provides a user-friendly interface with a smooth and responsive experience.
+
+Built using React and Bootstrap, the platform ensures fast performance, clean UI, and a mobile-friendly design. With an intuitive shopping experience, users can browse, add items to the cart, and securely checkout with ease.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
