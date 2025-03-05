@@ -1,0 +1,15 @@
+.card {
+  transition: transform 0.2s, box-shadow 0.2s;
+  border: 1px solid #eed8da;
+  border-radius: 0.5rem;
+}
+
+.card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+.card-img-top {
+  height: 150px;
+  object-fit: cover;
+}

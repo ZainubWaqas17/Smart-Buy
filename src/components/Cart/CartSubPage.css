@@ -1,0 +1,74 @@
+/* Cart sub-page */
+.offcanvas {
+  width: 300px;
+  max-height: 80vh;
+  /* 80% of the view height */
+  background-color: #f8f9fa;
+}
+
+.offcanvas-header {
+  background-color: #008080;
+  color: white;
+}
+
+.list-group-item img {
+  width: 50px;
+  height: 50px;
+  object-fit: cover;
+  border-radius: 0.25rem;
+}
+
+/* Checkout Button*/
+.btn {
+  border-radius: 0.25rem;
+  /*rounded corners */
+}
+/* CartSubPage.css */
+.list-group-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.5rem 1rem;
+}
+
+.list-group-item img {
+  width: 40px; /* Adjust image size */
+  height: 40px;
+  margin-right: 10px;
+}
+
+.btn {
+  margin-left: 10px;
+}
+
+@media (max-width: 768px) {
+  .text-section {
+    text-align: center; /* Center the text for smaller screens */
+    padding-top: 20px;
+  }
+
+  .headphone-image {
+    width: 200px; /* Adjust the size of the headphone image on smaller screens */
+    position: static; /* Remove absolute positioning */
+    margin-top: 20px; /* Add some spacing */
+  }
+
+  .description {
+    position: relative; /* Make the description flow in the document instead of being absolutely positioned */
+    bottom: 0;
+    right: 0;
+    margin-top: 10px;
+    text-align: center; /* Center the description text */
+  }
+}
+
+@media (max-width: 576px) {
+  .shop-btn {
+    font-size: 16px; /* Reduce button font size on very small screens */
+    padding: 10px 20px; /* Adjust button padding */
+  }
+
+  .bottom-container {
+    padding: 20px 0; /* Reduce the padding for smaller screens */
+  }
+}

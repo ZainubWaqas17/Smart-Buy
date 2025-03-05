@@ -1,0 +1,62 @@
+.navbar {
+    background-color: #0f5050;
+    border-bottom: 2px solid white;
+    width: 100%;
+    margin: 0 auto;
+    height: 65px;
+}
+
+.navbar-toggler {
+    background-color: white;
+    border: none;
+}
+
+.navbar-toggler-icon {
+    background-color: #0f5050;
+    border-radius: 2px;
+    padding: 5px;
+}
+
+.nav-link {
+    color: white;
+    font-size: 17px;
+}
+
+.nav-link:hover {
+    color: #ffcc00;
+}
+
+.navbar-collapse {
+    background-color: #0f5050;
+}
+
+.navbar-nav .nav-item {
+    margin-right: 10px;
+}
+
+@media (max-width: 991.98px) {
+    .navbar-nav {
+        text-align: center;
+        padding: 1rem 0;
+    }
+
+    .nav-item {
+        margin-bottom: 10px; /* Add some space between items on smaller screens */
+    }
+
+    .nav-link {
+        color: white;
+        font-size: 18px;
+        width: 100%;
+    }
+}
+
+/* Cart counter badge */
+#cart-count {
+    position: absolute;
+    background-color: red;
+    color: white;
+    padding: 0.2rem;
+    border-radius: 50%;
+    font-size: 12px;
+}

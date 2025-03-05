@@ -1,0 +1,40 @@
+/* Container styling for the component */
+#api {
+  background-color: #008080;
+  padding: 20px;
+  border-radius: 12px;
+  margin-top: 20px;
+}
+
+/* Styling for each item box */
+.item-box {
+  border: 1px solid #005555;
+  border-radius: 8px;
+  background-color: #e0f2f1;
+  color: #004d4d;
+  padding: 15px;
+  transition: transform 0.2s;
+}
+.item-box:hover {
+  transform: scale(1.02);
+}
+
+/* Styling for item title */
+.item-title {
+  color: #00796b;
+  font-weight: bold;
+}
+
+/* Pagination styling */
+.pagination .page-item.active .page-link {
+  background-color: #00796b;
+  border-color: #00796b;
+  color: #fff;
+}
+.pagination .page-link {
+  color: #004d4d;
+  border: 1px solid #004d4d;
+}
+.pagination .page-link:hover {
+  background-color: #e0f2f1;
+}

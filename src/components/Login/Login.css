@@ -1,0 +1,56 @@
+.background-radial-gradient {
+  height: 80%;
+  background-color: #0f5050;
+  background-image: radial-gradient(
+      650px circle at 0% 0%,
+      #1c7373 15%,
+      #185e5e 35%,
+      #134949 75%,
+      #0f4040 80%,
+      transparent 100%
+    ),
+    radial-gradient(
+      1250px circle at 100% 100%,
+      #1c7373 15%,
+      #185e5e 35%,
+      #134949 75%,
+      #0f4040 80%,
+      transparent 100%
+    );
+}
+
+#radius-shape-1 {
+  height: 220px;
+  width: 220px;
+  top: -60px;
+  left: -130px;
+  background: radial-gradient(#007b7b, #33cccc);
+  overflow: hidden;
+}
+
+#radius-shape-2 {
+  border-radius: 38% 62% 63% 37% / 70% 33% 67% 30%;
+  bottom: -60px;
+  right: -110px;
+  width: 300px;
+  height: 300px;
+  background: radial-gradient(#007b7b, #33cccc);
+  overflow: hidden;
+}
+
+.bg-glass {
+  background-color: hsla(0, 0%, 100%, 0.85) !important;
+  backdrop-filter: saturate(180%) blur(20px);
+  height: 400px; /* Adjusted height for a smaller login box */
+  width: 80%; /* Set width to ensure consistency */
+  max-width: 400px; /* Maximum width to control the login box size */
+  margin: auto;
+}
+
+#button {
+  width: 70%; /* Ensures the button stretches the width of the form */
+}
+
+#button {
+  width: 80%; /* Ensures the button stretches the width of the form */
+}
