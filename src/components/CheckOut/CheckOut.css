@@ -1,0 +1,6 @@
+/* Custom styles to enlarge images in the order summary */
+.order-item-image {
+  width: 450px; /* Set a fixed width for the images */
+  height: auto; /* Maintain aspect ratio */
+  max-height: 200px; /* Limit the height if necessary */
+}
