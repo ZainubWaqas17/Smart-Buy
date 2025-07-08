@@ -1,13 +1,13 @@
-# 🛒 Smart Buy  
+# Smart Buy  
 
 **Smart Buy** is a modern e-commerce platform for seamless shopping of electronics. From smartphones to headphones and other gadgets, it offers a user-friendly interface with a smooth and responsive experience.  
 
-## 🚀 Features  
-- 📱 Browse and shop for the latest electronics.  
-- 🛍️ Add items to the cart and proceed to a secure checkout.  
-- ⚡ Fast, responsive, and mobile-friendly design.  
+## Features  
+- Browse and shop for the latest electronics.  
+- Add items to the cart and proceed to a secure checkout.  
+- Fast, responsive, and mobile-friendly design.  
 
-## 🛠 Technologies Used  
+## Technologies Used  
 - React  
 - JavaScript  
 - Bootstrap  
